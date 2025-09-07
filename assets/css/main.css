@@ -1,11 +1,11 @@
 /* Fonts */
 :root {
-    --default-font: 'Roboto', system-ui, -apple-system, 'Segoe UI', Roboto,
-        'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif,
-        'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
-        'Noto Color Emoji';
-    --heading-font: 'Raleway', sans-serif;
-    --nav-font: 'Poppins', sans-serif;
+    --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
+    --heading-font: "Raleway", sans-serif;
+    --nav-font: "Poppins", sans-serif;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
@@ -13,7 +13,7 @@
     --background-color: #ffffff; /* Background color for the entire website, including individual sections */
     --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
     --heading-color: #556270; /* Color for headings, subheadings and title throughout the website */
-    --accent-color: #d9232d; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+    --accent-color: #ff7f41ff; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
     --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
     --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -21,11 +21,11 @@
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
     --nav-color: #556270; /* The default color of the main navmenu links */
-    --nav-hover-color: #d9232d; /* Applied to main navmenu links when they are hovered over or active */
+    --nav-hover-color: #ff7f41ff; /* Applied to main navmenu links when they are hovered over or active */
     --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
     --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
     --nav-dropdown-color: #556270; /* Used for navigation links of the dropdown items in the navigation menu. */
-    --nav-dropdown-hover-color: #d9232d; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+    --nav-dropdown-hover-color: #ff7f41ff; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
@@ -109,7 +109,7 @@ h6 {
 }
 
 .php-email-form .loading:before {
-    content: '';
+    content: "";
     display: inline-block;
     border-radius: 50%;
     width: 24px;
@@ -558,7 +558,7 @@ h6 {
     border-color: var(--accent-color);
 }
 
-.footer .footer-newsletter .newsletter-form input[type='email'] {
+.footer .footer-newsletter .newsletter-form input[type="email"] {
     border: 0;
     padding: 4px;
     width: 100%;
@@ -566,11 +566,11 @@ h6 {
     color: var(--default-color);
 }
 
-.footer .footer-newsletter .newsletter-form input[type='email']:focus-visible {
+.footer .footer-newsletter .newsletter-form input[type="email"]:focus-visible {
     outline: none;
 }
 
-.footer .footer-newsletter .newsletter-form input[type='submit'] {
+.footer .footer-newsletter .newsletter-form input[type="submit"] {
     border: 0;
     font-size: 16px;
     padding: 0 20px;
@@ -581,7 +581,7 @@ h6 {
     border-radius: 0 4px 4px 0;
 }
 
-.footer .footer-newsletter .newsletter-form input[type='submit']:hover {
+.footer .footer-newsletter .newsletter-form input[type="submit"]:hover {
     background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
 
@@ -613,7 +613,7 @@ h6 {
 }
 
 #preloader:before {
-    content: '';
+    content: "";
     position: fixed;
     top: calc(50% - 30px);
     left: calc(50% - 30px);
@@ -708,7 +708,7 @@ h6 {
 }
 
 .page-title .breadcrumbs ol li + li::before {
-    content: '/';
+    content: "/";
     display: inline-block;
     padding-right: 10px;
     color: color-mix(in srgb, var(--default-color), transparent 70%);
@@ -754,7 +754,7 @@ section,
 }
 
 .section-title h2::after {
-    content: '';
+    content: "";
     width: 120px;
     height: 1px;
     display: inline-block;
@@ -813,7 +813,7 @@ section,
 }
 
 .hero .carousel-item:before {
-    content: '';
+    content: "";
     background: color-mix(in srgb, var(--background-color), transparent 50%);
     position: absolute;
     inset: 0;
@@ -1171,8 +1171,8 @@ section,
 .about-2 .about-img:before {
     position: absolute;
     inset: -60px 0 0 -60px;
-    content: '';
-    background: url('../img/about-bg.png') top left;
+    content: "";
+    background: url("../img/about-bg.png") top left;
     background-repeat: no-repeat;
     z-index: 1;
 }
@@ -1272,7 +1272,7 @@ section,
 }
 
 .stats .stats-item span:after {
-    content: '';
+    content: "";
     position: absolute;
     display: block;
     width: 25px;
@@ -1391,7 +1391,7 @@ section,
 }
 
 .team .team-member span::after {
-    content: '';
+    content: "";
     position: absolute;
     display: block;
     width: 50px;
@@ -2008,7 +2008,7 @@ section,
 }
 
 .blog-details .content blockquote:after {
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     top: 0;
@@ -2096,7 +2096,7 @@ section,
 .blog-details .meta-bottom .tags li + li::before {
     padding-right: 6px;
     color: var(--default-color);
-    content: ',';
+    content: ",";
 }
 
 .blog-details .meta-bottom .share {
@@ -2285,8 +2285,8 @@ section,
     height: 100%;
 }
 
-.contact .php-email-form input[type='text'],
-.contact .php-email-form input[type='email'],
+.contact .php-email-form input[type="text"],
+.contact .php-email-form input[type="email"],
 .contact .php-email-form textarea {
     font-size: 14px;
     padding: 10px 15px;
@@ -2301,19 +2301,19 @@ section,
     border-color: color-mix(in srgb, var(--default-color), transparent 80%);
 }
 
-.contact .php-email-form input[type='text']:focus,
-.contact .php-email-form input[type='email']:focus,
+.contact .php-email-form input[type="text"]:focus,
+.contact .php-email-form input[type="email"]:focus,
 .contact .php-email-form textarea:focus {
     border-color: var(--accent-color);
 }
 
-.contact .php-email-form input[type='text']::placeholder,
-.contact .php-email-form input[type='email']::placeholder,
+.contact .php-email-form input[type="text"]::placeholder,
+.contact .php-email-form input[type="email"]::placeholder,
 .contact .php-email-form textarea::placeholder {
     color: color-mix(in srgb, var(--default-color), transparent 70%);
 }
 
-.contact .php-email-form button[type='submit'] {
+.contact .php-email-form button[type="submit"] {
     color: var(--contrast-color);
     background: var(--accent-color);
     border: 0;
@@ -2322,7 +2322,7 @@ section,
     border-radius: 4px;
 }
 
-.contact .php-email-form button[type='submit']:hover {
+.contact .php-email-form button[type="submit"]:hover {
     background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
 
@@ -2367,7 +2367,7 @@ section,
     transition: 0.3s;
 }
 
-.search-widget form input[type='text'] {
+.search-widget form input[type="text"] {
     border: 0;
     padding: 4px;
     border-radius: 4px;
@@ -2376,7 +2376,7 @@ section,
     color: var(--default-color);
 }
 
-.search-widget form input[type='text']:focus {
+.search-widget form input[type="text"]:focus {
     outline: none;
 }
 
@@ -2525,7 +2525,7 @@ section,
 }
 
 .cookie-wrapper * {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 .cookie-wrapper .show {
@@ -2536,12 +2536,12 @@ section,
     display: none;
 }
 header i {
-    color: #d9232d;
+    color: #ff7f41ff;
     font-size: 32px;
     text-align: center;
 }
 header h2 {
-    color: #d9232d;
+    color: #ff7f41ff;
     font-weight: 500;
     text-align: center;
 }
@@ -2549,7 +2549,7 @@ header h2 {
     text-align: center;
 }
 .data p a {
-    color: #d9232d;
+    color: #ff7f41ff;
     text-decoration: none;
     text-align: center !important;
 }
@@ -2561,10 +2561,10 @@ header h2 {
     text-align: center;
 }
 .buttons .cookie-button {
-    border: 2px solid #d9232d;
+    border: 2px solid #ff7f41ff;
     color: #fff;
     padding: 8px 0;
-    background: #d9232d;
+    background: #ff7f41ff;
     cursor: pointer;
     width: calc(100% / 2 - 10px);
     transition: all 0.5s ease;
@@ -2573,14 +2573,14 @@ header h2 {
 }
 .buttons #acceptBtn:hover {
     background-color: transparent;
-    color: #d9232d;
+    color: #ff7f41ff;
 }
 #declineBtn {
     background-color: #fff;
-    color: #d9232d;
+    color: #ff7f41ff;
 }
 #declineBtn:hover {
-    background-color: #d9232d;
+    background-color: #ff7f41ff;
     color: #fff;
 }
 /* Footer Style */
